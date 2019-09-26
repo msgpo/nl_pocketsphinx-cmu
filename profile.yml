@@ -1,0 +1,7 @@
+language:
+  name: "dutch"
+  code: "nl"
+
+text-to-speech:
+  espeak:
+    voice: "nl"
