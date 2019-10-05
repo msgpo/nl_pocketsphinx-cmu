@@ -1,0 +1,210 @@
+{
+  "statistics": {
+    "num_wavs": 12,
+    "num_words": 48,
+    "num_entities": 0,
+    "correct_transcriptions": 8,
+    "correct_intent_names": 0,
+    "correct_words": 41,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.8541666666666666,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "zet_de_woonkamerlamp_uit.wav": {
+      "text": "zet de woonkamerlamp uit",
+      "transcribe_seconds": 0.041466712951660156,
+      "wav_seconds": 1.6308125,
+      "likelihood": 0.4257091172619322,
+      "word_error": {
+        "expected": "zet de  woonkamerlamp uit",
+        "actual": "zet de  woonkamerlamp uit",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "is_de_garagepoort_open.wav": {
+      "text": "is de garagepoort open",
+      "transcribe_seconds": 0.04109454154968262,
+      "wav_seconds": 1.6314375,
+      "likelihood": 0.3239614833902897,
+      "word_error": {
+        "expected": "is  de  garagepoort open",
+        "actual": "is  de  garagepoort open",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "is_de_garagepoort_gesloten.wav": {
+      "text": "is de garagepoort gesloten",
+      "transcribe_seconds": 0.04595541954040527,
+      "wav_seconds": 1.9591875,
+      "likelihood": 0.33819735483222585,
+      "word_error": {
+        "expected": "is  de  garagepoort gesloten",
+        "actual": "is  de  garagepoort gesloten",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "wat_is_de_temperatuur.wav": {
+      "text": "is de temperatuur",
+      "transcribe_seconds": 0.04189109802246094,
+      "wav_seconds": 1.46,
+      "likelihood": 0.1835080892290028,
+      "word_error": {
+        "expected": "WAT is  de  temperatuur",
+        "actual": "*** is  de  temperatuur",
+        "words": 4,
+        "correct": 3,
+        "errors": 1
+      }
+    },
+    "zet_de_garageverlichting_uit.wav": {
+      "text": "zet de garageverlichting uit",
+      "transcribe_seconds": 0.05033683776855469,
+      "wav_seconds": 1.8774375,
+      "likelihood": 0.38859812707281605,
+      "word_error": {
+        "expected": "zet de  garageverlichting uit",
+        "actual": "zet de  garageverlichting uit",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "zet_de_woonkamerverlichting_aan.wav": {
+      "text": "zet de woonkamerverlichting aan",
+      "transcribe_seconds": 0.04877281188964844,
+      "wav_seconds": 1.8495625,
+      "likelihood": 0.24628585043162088,
+      "word_error": {
+        "expected": "zet de  woonkamerverlichting aan",
+        "actual": "zet de  woonkamerverlichting aan",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "hoe_warm_is_het.wav": {
+      "text": "hoe warm is het",
+      "transcribe_seconds": 0.03267264366149902,
+      "wav_seconds": 1.0229375,
+      "likelihood": 0.7926869280986195,
+      "word_error": {
+        "expected": "hoe warm is  het",
+        "actual": "hoe warm is  het",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "zet_de_garageverlichting_aan.wav": {
+      "text": "zet de garageverlichting aan",
+      "transcribe_seconds": 0.04763174057006836,
+      "wav_seconds": 1.7398125,
+      "likelihood": 0.33748780343086865,
+      "word_error": {
+        "expected": "zet de  garageverlichting aan",
+        "actual": "zet de  garageverlichting aan",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "hoe_laat_is_het.wav": {
+      "text": "laat is het",
+      "transcribe_seconds": 0.026012420654296875,
+      "wav_seconds": 0.949375,
+      "likelihood": 0.008092170135630114,
+      "word_error": {
+        "expected": "HOE laat is  het",
+        "actual": "*** laat is  het",
+        "words": 4,
+        "correct": 3,
+        "errors": 1
+      }
+    },
+    "hoe_koud_is_het.wav": {
+      "text": "zet",
+      "transcribe_seconds": 0.030070781707763672,
+      "wav_seconds": 0.9535625,
+      "likelihood": 0.6454866562679293,
+      "word_error": {
+        "expected": "HOE KOUD IS  HET",
+        "actual": "*** ***  *** ZET",
+        "words": 4,
+        "correct": 0,
+        "errors": 4
+      }
+    },
+    "zet_de_woonkamerverlichting_uit.wav": {
+      "text": "zet de woonkamerverlichting uit",
+      "transcribe_seconds": 0.05052042007446289,
+      "wav_seconds": 1.9938125,
+      "likelihood": 0.34951043881763555,
+      "word_error": {
+        "expected": "zet de  woonkamerverlichting uit",
+        "actual": "zet de  woonkamerverlichting uit",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "zet_de_woonkamerlamp_aan.wav": {
+      "text": "zet de woonkamerlamp uit",
+      "transcribe_seconds": 0.044478654861450195,
+      "wav_seconds": 1.6000625,
+      "likelihood": 0.2724362255149316,
+      "word_error": {
+        "expected": "zet de  woonkamerlamp AAN",
+        "actual": "zet de  woonkamerlamp UIT",
+        "words": 4,
+        "correct": 3,
+        "errors": 1
+      }
+    }
+  },
+  "expected": {
+    "zet_de_woonkamerlamp_uit.wav": {
+      "text": "zet de woonkamerlamp uit"
+    },
+    "is_de_garagepoort_open.wav": {
+      "text": "is de garagepoort open"
+    },
+    "is_de_garagepoort_gesloten.wav": {
+      "text": "is de garagepoort gesloten"
+    },
+    "wat_is_de_temperatuur.wav": {
+      "text": "wat is de temperatuur"
+    },
+    "zet_de_garageverlichting_uit.wav": {
+      "text": "zet de garageverlichting uit"
+    },
+    "zet_de_woonkamerverlichting_aan.wav": {
+      "text": "zet de woonkamerverlichting aan"
+    },
+    "hoe_warm_is_het.wav": {
+      "text": "hoe warm is het"
+    },
+    "zet_de_garageverlichting_aan.wav": {
+      "text": "zet de garageverlichting aan"
+    },
+    "hoe_laat_is_het.wav": {
+      "text": "hoe laat is het"
+    },
+    "hoe_koud_is_het.wav": {
+      "text": "hoe koud is het"
+    },
+    "zet_de_woonkamerverlichting_uit.wav": {
+      "text": "zet de woonkamerverlichting uit"
+    },
+    "zet_de_woonkamerlamp_aan.wav": {
+      "text": "zet de woonkamerlamp aan"
+    }
+  }
+}
