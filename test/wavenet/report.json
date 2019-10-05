@@ -2,19 +2,62 @@
   "statistics": {
     "num_wavs": 12,
     "num_words": 48,
-    "num_entities": 0,
+    "num_entities": 12,
     "correct_transcriptions": 8,
-    "correct_intent_names": 0,
-    "correct_words": 41,
-    "correct_entities": 0,
-    "transcription_accuracy": 0.8541666666666666,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "correct_intent_names": 11,
+    "correct_words": 43,
+    "correct_entities": 11,
+    "transcription_accuracy": 0.8958333333333334,
+    "intent_accuracy": 0.9166666666666666,
+    "entity_accuracy": 0.9166666666666666
   },
   "actual": {
     "zet_de_woonkamerlamp_uit.wav": {
       "text": "zet de woonkamerlamp uit",
-      "transcribe_seconds": 0.041466712951660156,
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "woonkamerlamp",
+          "raw_value": "woonkamerlamp",
+          "start": 7,
+          "raw_start": 7,
+          "end": 20,
+          "raw_end": 20
+        },
+        {
+          "entity": "state",
+          "value": "uit",
+          "raw_value": "uit",
+          "start": 21,
+          "raw_start": 21,
+          "end": 24,
+          "raw_end": 24
+        }
+      ],
+      "raw_text": "zet de woonkamerlamp uit",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "slots": {
+        "name": "woonkamerlamp",
+        "state": "uit"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00029015541076660156,
+      "transcribe_seconds": 0.041352033615112305,
       "wav_seconds": 1.6308125,
       "likelihood": 0.4257091172619322,
       "word_error": {
@@ -27,9 +70,30 @@
     },
     "is_de_garagepoort_open.wav": {
       "text": "is de garagepoort open",
-      "transcribe_seconds": 0.04109454154968262,
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "is de garagepoort open",
+      "tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "open"
+      ],
+      "raw_tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "open"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002796649932861328,
+      "transcribe_seconds": 0.04105043411254883,
       "wav_seconds": 1.6314375,
-      "likelihood": 0.3239614833902897,
+      "likelihood": 0.32173358599964197,
       "word_error": {
         "expected": "is  de  garagepoort open",
         "actual": "is  de  garagepoort open",
@@ -40,9 +104,30 @@
     },
     "is_de_garagepoort_gesloten.wav": {
       "text": "is de garagepoort gesloten",
-      "transcribe_seconds": 0.04595541954040527,
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "is de garagepoort gesloten",
+      "tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "gesloten"
+      ],
+      "raw_tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "gesloten"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00028324127197265625,
+      "transcribe_seconds": 0.04536247253417969,
       "wav_seconds": 1.9591875,
-      "likelihood": 0.33819735483222585,
+      "likelihood": 0.28098692388133406,
       "word_error": {
         "expected": "is  de  garagepoort gesloten",
         "actual": "is  de  garagepoort gesloten",
@@ -52,23 +137,87 @@
       }
     },
     "wat_is_de_temperatuur.wav": {
-      "text": "is de temperatuur",
-      "transcribe_seconds": 0.04189109802246094,
+      "text": "wat is de temperatuur",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "wat is de temperatuur",
+      "tokens": [
+        "wat",
+        "is",
+        "de",
+        "temperatuur"
+      ],
+      "raw_tokens": [
+        "wat",
+        "is",
+        "de",
+        "temperatuur"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00026679039001464844,
+      "transcribe_seconds": 0.041383981704711914,
       "wav_seconds": 1.46,
-      "likelihood": 0.1835080892290028,
+      "likelihood": 0.18246494798432716,
       "word_error": {
-        "expected": "WAT is  de  temperatuur",
-        "actual": "*** is  de  temperatuur",
+        "expected": "wat is  de  temperatuur",
+        "actual": "wat is  de  temperatuur",
         "words": 4,
-        "correct": 3,
-        "errors": 1
+        "correct": 4,
+        "errors": 0
       }
     },
     "zet_de_garageverlichting_uit.wav": {
       "text": "zet de garageverlichting uit",
-      "transcribe_seconds": 0.05033683776855469,
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "garageverlichting",
+          "raw_value": "garageverlichting",
+          "start": 7,
+          "raw_start": 7,
+          "end": 24,
+          "raw_end": 24
+        },
+        {
+          "entity": "state",
+          "value": "uit",
+          "raw_value": "uit",
+          "start": 25,
+          "raw_start": 25,
+          "end": 28,
+          "raw_end": 28
+        }
+      ],
+      "raw_text": "zet de garageverlichting uit",
+      "tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "uit"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "uit"
+      ],
+      "slots": {
+        "name": "garageverlichting",
+        "state": "uit"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0003535747528076172,
+      "transcribe_seconds": 0.050079345703125,
       "wav_seconds": 1.8774375,
-      "likelihood": 0.38859812707281605,
+      "likelihood": 0.3868144744868983,
       "word_error": {
         "expected": "zet de  garageverlichting uit",
         "actual": "zet de  garageverlichting uit",
@@ -79,9 +228,52 @@
     },
     "zet_de_woonkamerverlichting_aan.wav": {
       "text": "zet de woonkamerverlichting aan",
-      "transcribe_seconds": 0.04877281188964844,
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "woonkamerverlichting",
+          "raw_value": "woonkamerverlichting",
+          "start": 7,
+          "raw_start": 7,
+          "end": 27,
+          "raw_end": 27
+        },
+        {
+          "entity": "state",
+          "value": "aan",
+          "raw_value": "aan",
+          "start": 28,
+          "raw_start": 28,
+          "end": 31,
+          "raw_end": 31
+        }
+      ],
+      "raw_text": "zet de woonkamerverlichting aan",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "aan"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "aan"
+      ],
+      "slots": {
+        "name": "woonkamerverlichting",
+        "state": "aan"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0003535747528076172,
+      "transcribe_seconds": 0.048493385314941406,
       "wav_seconds": 1.8495625,
-      "likelihood": 0.24628585043162088,
+      "likelihood": 0.24194024918599422,
       "word_error": {
         "expected": "zet de  woonkamerverlichting aan",
         "actual": "zet de  woonkamerverlichting aan",
@@ -92,9 +284,30 @@
     },
     "hoe_warm_is_het.wav": {
       "text": "hoe warm is het",
-      "transcribe_seconds": 0.03267264366149902,
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "hoe warm is het",
+      "tokens": [
+        "hoe",
+        "warm",
+        "is",
+        "het"
+      ],
+      "raw_tokens": [
+        "hoe",
+        "warm",
+        "is",
+        "het"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00028395652770996094,
+      "transcribe_seconds": 0.03209209442138672,
       "wav_seconds": 1.0229375,
-      "likelihood": 0.7926869280986195,
+      "likelihood": 0.8840742009932657,
       "word_error": {
         "expected": "hoe warm is  het",
         "actual": "hoe warm is  het",
@@ -105,9 +318,52 @@
     },
     "zet_de_garageverlichting_aan.wav": {
       "text": "zet de garageverlichting aan",
-      "transcribe_seconds": 0.04763174057006836,
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "garageverlichting",
+          "raw_value": "garageverlichting",
+          "start": 7,
+          "raw_start": 7,
+          "end": 24,
+          "raw_end": 24
+        },
+        {
+          "entity": "state",
+          "value": "aan",
+          "raw_value": "aan",
+          "start": 25,
+          "raw_start": 25,
+          "end": 28,
+          "raw_end": 28
+        }
+      ],
+      "raw_text": "zet de garageverlichting aan",
+      "tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "aan"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "aan"
+      ],
+      "slots": {
+        "name": "garageverlichting",
+        "state": "aan"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0003578662872314453,
+      "transcribe_seconds": 0.04616832733154297,
       "wav_seconds": 1.7398125,
-      "likelihood": 0.33748780343086865,
+      "likelihood": 0.33499932397034454,
       "word_error": {
         "expected": "zet de  garageverlichting aan",
         "actual": "zet de  garageverlichting aan",
@@ -117,23 +373,52 @@
       }
     },
     "hoe_laat_is_het.wav": {
-      "text": "laat is het",
-      "transcribe_seconds": 0.026012420654296875,
+      "text": "hoe laat is het",
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "hoe laat is het",
+      "tokens": [
+        "hoe",
+        "laat",
+        "is",
+        "het"
+      ],
+      "raw_tokens": [
+        "hoe",
+        "laat",
+        "is",
+        "het"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002624988555908203,
+      "transcribe_seconds": 0.02539682388305664,
       "wav_seconds": 0.949375,
-      "likelihood": 0.008092170135630114,
+      "likelihood": 0.007294968928768766,
       "word_error": {
-        "expected": "HOE laat is  het",
-        "actual": "*** laat is  het",
+        "expected": "hoe laat is  het",
+        "actual": "hoe laat is  het",
         "words": 4,
-        "correct": 3,
-        "errors": 1
+        "correct": 4,
+        "errors": 0
       }
     },
     "hoe_koud_is_het.wav": {
       "text": "zet",
-      "transcribe_seconds": 0.030070781707763672,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002512931823730469,
+      "transcribe_seconds": 0.029903888702392578,
       "wav_seconds": 0.9535625,
-      "likelihood": 0.6454866562679293,
+      "likelihood": 0.64156071888306,
       "word_error": {
         "expected": "HOE KOUD IS  HET",
         "actual": "*** ***  *** ZET",
@@ -144,9 +429,52 @@
     },
     "zet_de_woonkamerverlichting_uit.wav": {
       "text": "zet de woonkamerverlichting uit",
-      "transcribe_seconds": 0.05052042007446289,
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "woonkamerverlichting",
+          "raw_value": "woonkamerverlichting",
+          "start": 7,
+          "raw_start": 7,
+          "end": 27,
+          "raw_end": 27
+        },
+        {
+          "entity": "state",
+          "value": "uit",
+          "raw_value": "uit",
+          "start": 28,
+          "raw_start": 28,
+          "end": 31,
+          "raw_end": 31
+        }
+      ],
+      "raw_text": "zet de woonkamerverlichting uit",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "uit"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "uit"
+      ],
+      "slots": {
+        "name": "woonkamerverlichting",
+        "state": "uit"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00035381317138671875,
+      "transcribe_seconds": 0.05018305778503418,
       "wav_seconds": 1.9938125,
-      "likelihood": 0.34951043881763555,
+      "likelihood": 0.38542428508074017,
       "word_error": {
         "expected": "zet de  woonkamerverlichting uit",
         "actual": "zet de  woonkamerverlichting uit",
@@ -157,9 +485,52 @@
     },
     "zet_de_woonkamerlamp_aan.wav": {
       "text": "zet de woonkamerlamp uit",
-      "transcribe_seconds": 0.044478654861450195,
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "woonkamerlamp",
+          "raw_value": "woonkamerlamp",
+          "start": 7,
+          "raw_start": 7,
+          "end": 20,
+          "raw_end": 20
+        },
+        {
+          "entity": "state",
+          "value": "uit",
+          "raw_value": "uit",
+          "start": 21,
+          "raw_start": 21,
+          "end": 24,
+          "raw_end": 24
+        }
+      ],
+      "raw_text": "zet de woonkamerlamp uit",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "slots": {
+        "name": "woonkamerlamp",
+        "state": "uit"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00037097930908203125,
+      "transcribe_seconds": 0.0444788932800293,
       "wav_seconds": 1.6000625,
-      "likelihood": 0.2724362255149316,
+      "likelihood": 0.27435019201291283,
       "word_error": {
         "expected": "zet de  woonkamerlamp AAN",
         "actual": "zet de  woonkamerlamp UIT",
@@ -171,40 +542,424 @@
   },
   "expected": {
     "zet_de_woonkamerlamp_uit.wav": {
-      "text": "zet de woonkamerlamp uit"
+      "text": "zet de woonkamerlamp uit",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "woonkamerlamp",
+          "raw_value": "woonkamerlamp",
+          "start": 7,
+          "raw_start": 7,
+          "end": 20,
+          "raw_end": 20
+        },
+        {
+          "entity": "state",
+          "value": "uit",
+          "raw_value": "uit",
+          "start": 21,
+          "raw_start": 21,
+          "end": 24,
+          "raw_end": 24
+        }
+      ],
+      "raw_text": "zet de woonkamerlamp uit",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "slots": {
+        "name": "woonkamerlamp",
+        "state": "uit"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0005981922149658203
     },
     "is_de_garagepoort_open.wav": {
-      "text": "is de garagepoort open"
+      "text": "is de garagepoort open",
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "is de garagepoort open",
+      "tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "open"
+      ],
+      "raw_tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "open"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00022840499877929688
     },
     "is_de_garagepoort_gesloten.wav": {
-      "text": "is de garagepoort gesloten"
+      "text": "is de garagepoort gesloten",
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "is de garagepoort gesloten",
+      "tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "gesloten"
+      ],
+      "raw_tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "gesloten"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002422332763671875
     },
     "wat_is_de_temperatuur.wav": {
-      "text": "wat is de temperatuur"
+      "text": "wat is de temperatuur",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "wat is de temperatuur",
+      "tokens": [
+        "wat",
+        "is",
+        "de",
+        "temperatuur"
+      ],
+      "raw_tokens": [
+        "wat",
+        "is",
+        "de",
+        "temperatuur"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00023365020751953125
     },
     "zet_de_garageverlichting_uit.wav": {
-      "text": "zet de garageverlichting uit"
+      "text": "zet de garageverlichting uit",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "garageverlichting",
+          "raw_value": "garageverlichting",
+          "start": 7,
+          "raw_start": 7,
+          "end": 24,
+          "raw_end": 24
+        },
+        {
+          "entity": "state",
+          "value": "uit",
+          "raw_value": "uit",
+          "start": 25,
+          "raw_start": 25,
+          "end": 28,
+          "raw_end": 28
+        }
+      ],
+      "raw_text": "zet de garageverlichting uit",
+      "tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "uit"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "uit"
+      ],
+      "slots": {
+        "name": "garageverlichting",
+        "state": "uit"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0003192424774169922
     },
     "zet_de_woonkamerverlichting_aan.wav": {
-      "text": "zet de woonkamerverlichting aan"
+      "text": "zet de woonkamerverlichting aan",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "woonkamerverlichting",
+          "raw_value": "woonkamerverlichting",
+          "start": 7,
+          "raw_start": 7,
+          "end": 27,
+          "raw_end": 27
+        },
+        {
+          "entity": "state",
+          "value": "aan",
+          "raw_value": "aan",
+          "start": 28,
+          "raw_start": 28,
+          "end": 31,
+          "raw_end": 31
+        }
+      ],
+      "raw_text": "zet de woonkamerverlichting aan",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "aan"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "aan"
+      ],
+      "slots": {
+        "name": "woonkamerverlichting",
+        "state": "aan"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0002865791320800781
     },
     "hoe_warm_is_het.wav": {
-      "text": "hoe warm is het"
+      "text": "hoe warm is het",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "hoe warm is het",
+      "tokens": [
+        "hoe",
+        "warm",
+        "is",
+        "het"
+      ],
+      "raw_tokens": [
+        "hoe",
+        "warm",
+        "is",
+        "het"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00022292137145996094
     },
     "zet_de_garageverlichting_aan.wav": {
-      "text": "zet de garageverlichting aan"
+      "text": "zet de garageverlichting aan",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "garageverlichting",
+          "raw_value": "garageverlichting",
+          "start": 7,
+          "raw_start": 7,
+          "end": 24,
+          "raw_end": 24
+        },
+        {
+          "entity": "state",
+          "value": "aan",
+          "raw_value": "aan",
+          "start": 25,
+          "raw_start": 25,
+          "end": 28,
+          "raw_end": 28
+        }
+      ],
+      "raw_text": "zet de garageverlichting aan",
+      "tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "aan"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "aan"
+      ],
+      "slots": {
+        "name": "garageverlichting",
+        "state": "aan"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00035119056701660156
     },
     "hoe_laat_is_het.wav": {
-      "text": "hoe laat is het"
+      "text": "hoe laat is het",
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "hoe laat is het",
+      "tokens": [
+        "hoe",
+        "laat",
+        "is",
+        "het"
+      ],
+      "raw_tokens": [
+        "hoe",
+        "laat",
+        "is",
+        "het"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002295970916748047
     },
     "hoe_koud_is_het.wav": {
-      "text": "hoe koud is het"
+      "text": "hoe koud is het",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "hoe koud is het",
+      "tokens": [
+        "hoe",
+        "koud",
+        "is",
+        "het"
+      ],
+      "raw_tokens": [
+        "hoe",
+        "koud",
+        "is",
+        "het"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00022935867309570312
     },
     "zet_de_woonkamerverlichting_uit.wav": {
-      "text": "zet de woonkamerverlichting uit"
+      "text": "zet de woonkamerverlichting uit",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "woonkamerverlichting",
+          "raw_value": "woonkamerverlichting",
+          "start": 7,
+          "raw_start": 7,
+          "end": 27,
+          "raw_end": 27
+        },
+        {
+          "entity": "state",
+          "value": "uit",
+          "raw_value": "uit",
+          "start": 28,
+          "raw_start": 28,
+          "end": 31,
+          "raw_end": 31
+        }
+      ],
+      "raw_text": "zet de woonkamerverlichting uit",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "uit"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "uit"
+      ],
+      "slots": {
+        "name": "woonkamerverlichting",
+        "state": "uit"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0002880096435546875
     },
     "zet_de_woonkamerlamp_aan.wav": {
-      "text": "zet de woonkamerlamp aan"
+      "text": "zet de woonkamerlamp aan",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "woonkamerlamp",
+          "raw_value": "woonkamerlamp",
+          "start": 7,
+          "raw_start": 7,
+          "end": 20,
+          "raw_end": 20
+        },
+        {
+          "entity": "state",
+          "value": "aan",
+          "raw_value": "aan",
+          "start": 21,
+          "raw_start": 21,
+          "end": 24,
+          "raw_end": 24
+        }
+      ],
+      "raw_text": "zet de woonkamerlamp aan",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "aan"
+      ],
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "aan"
+      ],
+      "slots": {
+        "name": "woonkamerlamp",
+        "state": "aan"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0003161430358886719
     }
   }
 }
