@@ -9,12 +9,22 @@
     "correct_entities": 0,
     "transcription_accuracy": 0.6428571428571429,
     "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 6.176162244837921
   },
   "actual": {
     "nl-0434.wav": {
       "text": "de akoestiek van het om filmtheater was overweldigend",
-      "transcribe_seconds": 1.5694248676300049,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00027823448181152344,
+      "transcribe_seconds": 1.5602447986602783,
       "wav_seconds": 8,
       "likelihood": 0.04566798617696211,
       "word_error": {
@@ -27,7 +37,15 @@
     },
     "nl-0438.wav": {
       "text": "kan een artiest oké auteursrecht hebben opeen improvisatie",
-      "transcribe_seconds": 1.0170464515686035,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 3.361701965332031e-05,
+      "transcribe_seconds": 0.9653303623199463,
       "wav_seconds": 7.75,
       "likelihood": 0.0050517884619762955,
       "word_error": {
@@ -40,7 +58,15 @@
     },
     "nl-0439.wav": {
       "text": "de beste plaatsen voldaan waren voelde hoogwaardig isniet ieders",
-      "transcribe_seconds": 1.467893123626709,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00017642974853515625,
+      "transcribe_seconds": 1.4103999137878418,
       "wav_seconds": 6.875,
       "likelihood": 3.514638469349124e-05,
       "word_error": {
@@ -53,7 +79,15 @@
     },
     "nl-0441.wav": {
       "text": "zes flessen inen is zeven",
-      "transcribe_seconds": 0.9205315113067627,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001633167266845703,
+      "transcribe_seconds": 0.9292583465576172,
       "wav_seconds": 5.625,
       "likelihood": 0.08320164036728,
       "word_error": {
@@ -66,7 +100,15 @@
     },
     "nl-0433.wav": {
       "text": "is het woord schouwburg in synoniemen voor het theater",
-      "transcribe_seconds": 0.8758406639099121,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00016951560974121094,
+      "transcribe_seconds": 0.8638246059417725,
       "wav_seconds": 6.875,
       "likelihood": 0.09316575092642466,
       "word_error": {
@@ -79,7 +121,15 @@
     },
     "nl-0436.wav": {
       "text": "die ze rondjes combinaties samen in de achtertuin afzonderlijk in gebouwd",
-      "transcribe_seconds": 1.3802504539489746,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00016617774963378906,
+      "transcribe_seconds": 1.3710708618164062,
       "wav_seconds": 7.75,
       "likelihood": 4.166492612339648e-06,
       "word_error": {
@@ -92,7 +142,15 @@
     },
     "nl-0432.wav": {
       "text": "dit handboek is vooral bestemd voor het wetenschappelijke onderwijs",
-      "transcribe_seconds": 1.3897860050201416,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00017404556274414062,
+      "transcribe_seconds": 1.3624615669250488,
       "wav_seconds": 6.75,
       "likelihood": 0.006802409036270389,
       "word_error": {
@@ -105,7 +163,15 @@
     },
     "nl-0435.wav": {
       "text": "de hoogte van de geen val is vijftien meter",
-      "transcribe_seconds": 1.063924789428711,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00017189979553222656,
+      "transcribe_seconds": 1.0641095638275146,
       "wav_seconds": 5.5,
       "likelihood": 0.006745501550165212,
       "word_error": {
@@ -118,7 +184,15 @@
     },
     "nl-0440.wav": {
       "text": "zijn recente dathij komen mijn onvoldoende doordacht volgen",
-      "transcribe_seconds": 0.9856505393981934,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.3365020751953125e-05,
+      "transcribe_seconds": 0.9748365879058838,
       "wav_seconds": 6.75,
       "likelihood": 0.01859501219404441,
       "word_error": {
@@ -131,7 +205,15 @@
     },
     "nl-0437.wav": {
       "text": "deze bepaling stelt naderen eisen aan ontbinding vaneen vaststelling is overeenkomst",
-      "transcribe_seconds": 1.25191330909729,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00016951560974121094,
+      "transcribe_seconds": 1.246490240097046,
       "wav_seconds": 8.75,
       "likelihood": 0.00019660985350743437,
       "word_error": {
