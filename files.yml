@@ -32,8 +32,8 @@ default:
     sha256: eff8d5860a302650cb9e61175bbcc5945196b8648f6c6fbfa3fad1f9570b785e
     file-name: base_dictionary.txt
   profile.yml:
-    bytes: 437
-    sha256: 4fc7d9e6adc4ce05bb221bed20416de90935f2d481edae56acdbe9d76802077b
+    bytes: 476
+    sha256: 3d642d9e030cb9e667f6ae1dd90eddc49d9dc56ba17ab8012dcd502b35c6bcbe
   slot_programs/rhasspy/number:
     bytes: 651
     sha256: d1f10ccea552c2c9ba2a59dd69705f8e82545592c7db5ca7078b462ed9d08387
@@ -43,6 +43,10 @@ default:
 
 # Files needed to guess word pronunciations
 grapheme-to-phoneme:
+  g2p.corpus.gz:
+    bytes: 8038034
+    file-name: g2p.corpus
+    sha256: 94155e9cdb7f15174c720a309b8bbe64bf59a5adcb5e46c1fbd406ba990c1010
   g2p.fst.gz.part-00:
     bytes: 26214400
     sha256: b696573b66cb30b2f8ec3572c07ceb645146158b29b4fd8ab6e080d332a667d5
